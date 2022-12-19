@@ -1,0 +1,157 @@
+@media screen and (width < 1024px) {
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.3rem;
+    }
+    p, a{
+        font-size: 0.8rem;
+    }
+    span{
+        font-size: 1rem;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 1rem;
+    }
+    /* Header Section */
+    #mySidenav a{
+        width: 90px;
+        font-size: 0.9rem;
+        right: -70px;
+        padding: 10px;
+    }
+    /* Home Section */
+    .showcase-image{
+        width: 35%;
+        height: 70%;
+    }
+
+    /* About section */
+    .about-grid{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .about-image{
+        justify-content: space-evenly;
+    }
+
+    /* Skill Section */
+    .skills_section{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .skills-image{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .skills-image img{
+        width: 120px;
+    }
+    .skills-box{
+        padding: 1rem;
+    }
+    
+    /* Project Section */
+    .projects_section{
+        display: flex;
+        flex-direction: column;
+    }
+    #box{
+        width: 100%;
+    }
+}
+
+@media screen and (width < 768px) {
+    .showcase_area{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        overflow: hidden;
+        height: 100%;
+        width: 95vw;
+    }
+    .btn{
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .secondary-btn{
+        width: 90%;
+        text-align: center;
+    }
+    /* Home Section */
+    .showcase-area{
+        flex-direction: column;
+        width: 100%;
+    }
+    .person1{
+        display: block;
+        width: 300px;
+    }
+    .showcase-info{
+        width: 100%;
+    }
+    .showcase-image{
+        display: none;
+    }
+
+    /* About Section */
+    .about-grid .about-image{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .about_section{
+        flex-direction: column;
+        margin: 0rem 1rem;
+    }
+    .cta{
+        width: 100%;
+    }
+
+    /* Skills Section */
+    .skills-image img{
+        width: 100px;
+    }
+
+    /* Project Section */
+    .projects_section{
+        height: 100%;
+        flex-direction: column;
+        width: 95%;
+    }
+    .project-info{
+        padding: 0.5rem 1rem;
+    }
+    #box{
+        width: 95%;
+        margin-top: 1rem;
+    }
+
+    /* Contact Section */
+    .contact-section .container{
+        grid-template-columns: 1fr; 
+        margin: 0px 1rem; 
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-info a{
+        font-size: 0.9rem;
+    }
+
+    /* Footer section */
+    .scroll-top{
+        width: 50px;
+        background-color: var(--main-color-2);
+    }
+}
