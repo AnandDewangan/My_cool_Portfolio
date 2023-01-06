@@ -41,6 +41,8 @@
     padding: 0;
     box-sizing: border-box;
     animation: smooth;
+    scroll-behavior: smooth;
+    transition: 0.4s ease;
 }
 body{
     background-color: var(--bg-color) ;
